@@ -1,0 +1,21 @@
+{
+  "name": "draftpad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huzaifahGoher/draftpad.git"
+  },
+  "keywords": [],
+  "author": "huzaifah <huzaifah191001@gmail.com>",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/huzaifahGoher/draftpad/issues"
+  },
+  "homepage": "https://github.com/huzaifahGoher/draftpad#readme"
+}
