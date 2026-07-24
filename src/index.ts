@@ -63,7 +63,7 @@ const view = new EditorView(element, {
     const newState = view.state.apply(transaction);
 
     if(unknownState){
-        let redoState, undoState = undefined;
+        let redoState, undoState = null;
         unknownState.redo ? redoState = newState : undoState = newState;
 
     } else{
