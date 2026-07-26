@@ -51,7 +51,7 @@ const view = new EditorView(element, {
   dispatchTransaction(this, transaction) {
     console.log(transaction);
     console.log(this);
-    console.log(
+    console.log( 
       "before change size: ",
       transaction.before.content.size,
       "\n After change the size is: ",
