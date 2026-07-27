@@ -51,12 +51,6 @@ const view = new EditorView(element, {
   dispatchTransaction(this, transaction) {
     console.log(transaction);
     console.log(this);
-    console.log( 
-      "before change size: ",
-      transaction.before.content.size,
-      "\n After change the size is: ",
-      transaction.doc.content.size,
-    );
 
     console.log(transaction.getMeta("history$"));
     const unknownState = transaction.getMeta("history$");
