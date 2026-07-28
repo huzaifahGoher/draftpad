@@ -1,4 +1,4 @@
-import { schema } from "prosemirror-schema-basic";
+import { schema } from "./schema";
 import { EditorState, Transaction } from "prosemirror-state";
 import { EditorView } from "prosemirror-view";
 import { history, undo, redo } from "prosemirror-history";
