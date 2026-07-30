@@ -9,6 +9,6 @@ export const customKeyMap = {
     },
     "Backspace": chainCommands(deleteSelection, joinBackward),
     "Ctrl-b": toggleMark(schema.marks.strong),
-    "Ctrl-i": toggleMark(schema.marks.italic),
+    "Ctrl-i": toggleMark(schema.marks.em),
     "Ctrl-u": toggleMark(schema.marks.underline),
 }
