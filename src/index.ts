@@ -11,7 +11,7 @@ const editor = EditorState.create({
   plugins: [history(), keymap({ "Ctrl-z": undo, "Ctrl-y": redo, ...customKeyMap })],
 });
 
-const element = document.getElementById("editor");
+const element = document.getElementById("editor"); 
 
 const view = new EditorView(element, {
   state: editor,
