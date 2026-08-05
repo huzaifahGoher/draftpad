@@ -6,7 +6,7 @@ import { keymap } from "prosemirror-keymap";
 import { customKeyMap } from "./keymap"; 
 import { toggleMark } from "prosemirror-commands";
 
-const editor = EditorState.create({
+const editor = EditorState.create({ 
   schema,
   plugins: [history(), keymap({ "Ctrl-z": undo, "Ctrl-y": redo, ...customKeyMap })],
 });
