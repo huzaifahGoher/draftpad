@@ -3,7 +3,7 @@ import { EditorState } from "prosemirror-state";
 import { EditorView } from "prosemirror-view";
 import { history, undo, redo } from "prosemirror-history";
 import { keymap } from "prosemirror-keymap"; 
-import { customKeyMap } from "./keymap"; 
+import { customKeyMap } from "./keymap";
 import { toggleMark } from "prosemirror-commands";
 
 const editor = EditorState.create({ 
